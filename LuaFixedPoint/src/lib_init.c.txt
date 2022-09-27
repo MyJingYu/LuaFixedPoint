@@ -1,0 +1,8 @@
+
+  { LUA_CFixedPointUtilLIBNAME,	luaopen_CFixedPointUtil },
+  { LUA_CIntMath,	luaopen_CIntMath },
+  { LUA_VInt3LIBNAME,	luaopen_VInt3 },
+  { LUA_CRectLIBNAME,	luaopen_CRect },
+  { LUA_CCircleLIBNAME,	luaopen_CCircle},
+  { LUA_CLineLIBNAME,	luaopen_CLine},
+  { LUA_CPhysicLIBNAME,	luaopen_CPhysicUtil},

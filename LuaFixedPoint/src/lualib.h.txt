@@ -1,0 +1,16 @@
+
+#define LUA_CFixedPointUtilLIBNAME	"CFixedPointUtil"
+#define LUA_CIntMath	"CIntMath"
+#define LUA_VInt3LIBNAME	"VInt3"
+#define LUA_CRectLIBNAME	"CRect"
+#define LUA_CCircleLIBNAME	"CCircle"
+#define LUA_CLineLIBNAME	"CLine"
+#define LUA_CPhysicLIBNAME	"CPhysic"
+
+LUALIB_API int luaopen_VInt3(lua_State* L);
+LUALIB_API int luaopen_CIntMath(lua_State* L);
+LUALIB_API int luaopen_CFixedPointUtil(lua_State* L);
+LUALIB_API int luaopen_CRect(lua_State* L);
+LUALIB_API int luaopen_CCircle(lua_State* L);
+LUALIB_API int luaopen_CLine(lua_State* L);
+LUALIB_API int luaopen_CPhysicUtil(lua_State* L);
